@@ -3,6 +3,7 @@
 
 require 'json'
 require 'googleauth'
+require 'faraday/multipart'
 
 require 'google_drive/session'
 

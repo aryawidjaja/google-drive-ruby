@@ -17,9 +17,9 @@ Gem::Specification.new do |s|
   s.add_dependency('google-apis-drive_v3', '>= 0.5.0', '< 1.0.0')
   s.add_dependency('google-apis-sheets_v4', '>= 0.4.0', '< 1.0.0')
   s.add_dependency('googleauth', ['>= 0.5.0', '< 1.0.0'])
+  s.add_dependency('faraday', '>= 1.0', '< 2.0')
+  s.add_dependency('faraday-multipart', '>= 1.0', '< 2.0')
   s.add_development_dependency('test-unit', ['>= 3.0.0', '< 4.0.0'])
-  s.add_development_dependency('rake', '~> 13.2.1', '>= 0.8.0')
+  s.add_development_dependency('rake', ['>= 0.8.0'])
   s.add_development_dependency('rspec-mocks', ['>= 3.4.0', '< 4.0.0'])
-  s.add_dependency('faraday', '~> 2.10.0')
-  s.add_dependency('faraday-multipart', '~> 1.0', '>= 1.0.4')
 end
